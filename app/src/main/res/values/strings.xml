@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Self Employees Management</string>
+    <string name="goalheading">Create a New Goal!</string>
+    <string name="goalname">Name your goal</string>
+    <string name="goalname2">Goal Name</string>
+    <string name="buttongoal">Create Goal</string>
+    <string name="explaingoal">Here you can set new goals for yourself and check progress of your current goals.</string>
+    <string name="currentgoal">Current Goals</string>
+    <string name="pettext">Pet</string>
+    <string name="commongoal">View Your Goals</string>
+    <string name="petdog">Check on your pet</string>
+    <string name="house1">Check on your house</string>
+    <string name="wedding1">Check on your wedding</string>
+    <string name="name_your_goal">Name your goal</string>
+    <string name="savingamount">saving amount</string>
+    <string name="expectedprice">expected price</string>
+    <string name="timeperiod">timeperiod</string>
+    <string name="time">Time</string>
+    <string name="months">Months</string>
+    <string name="name_your_goal1">Name Your Goal</string>
+    <string name="expected_price">Expected Price</string>
+    <string name="add_in_months">Add in Months</string>
+    <string name="addtime">Add Time</string>
+    <string name="progresstxt">Your Saved Goals</string>
+    <string name="prg1">My Doggo</string>
+    <string name="mygoal2">My Goal</string>
+    <string name="mygoal3">My Goal</string>
+    <string name="prg3">My Car</string>
+    <string name="doggo">doggo</string>
+    <string name="name1">Goal Name</string>
+    <string name="price1">Goal Price</string>
+    <string name="time1">Time Period</string>
+    <string name="loading_data">Loading Data...</string>
+    <string name="goals">Goals</string>
+    <string name="goalname1">Goal Name</string>
+    <string name="goalid">Goal ID</string>
+    <string name="goalprice1">Expected Value</string>
+    <string name="goaltime1">Expected Time</string>
+    />
+    />
+    />
 </resources>
