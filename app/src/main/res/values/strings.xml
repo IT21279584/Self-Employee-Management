@@ -109,4 +109,12 @@
     <string name="insert_data">insert Data</string>
     <string name="firebase_realtime_database_app_in_kotlin">Firebase Realtime Database App in Kotlin</string>
 
+    <string-array name="jobs">
+        <item>Carpenter</item>
+        <item>Mason</item>
+        <item>Tailor</item>
+        <item>Artist</item>
+        <item>Writer</item>
+    </string-array>
+
 </resources>
