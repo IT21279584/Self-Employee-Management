@@ -117,4 +117,9 @@
         <item>Writer</item>
     </string-array>
 
+
+    <string name="search_task">Search Task</string>
+    <string name="action_search">action_search</string>
+    <string name="search">Search</string>
+
 </resources>
