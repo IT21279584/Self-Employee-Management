@@ -1,11 +1,11 @@
-package com.example.taskmanagement.activities
+package com.example.selfemployeesmanagement.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.taskmanagement.R
+import com.example.selfemployeesmanagement.R
 
 class MainTaskActivity : AppCompatActivity() {
     private lateinit var btnInsertData:Button

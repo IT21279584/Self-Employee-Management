@@ -5,7 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.taskmanagement.R
+import com.example.selfemployeesmanagement.R
+import com.example.selfemployeesmanagement.models.TaskModel
 
 class TaskAdapter (private  val taskList: ArrayList<TaskModel>):
     RecyclerView.Adapter<TaskAdapter.ViewHolder>(){

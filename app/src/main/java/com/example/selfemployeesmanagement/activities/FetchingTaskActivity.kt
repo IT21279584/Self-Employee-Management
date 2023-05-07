@@ -1,6 +1,5 @@
-package com.example.taskmanagement.activities
-//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+package com.example.selfemployeesmanagement.activities
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,8 +7,9 @@ import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.taskmanagement.R
-import com.example.taskmanagement.adapters.TaskAdapter
+import com.example.selfemployeesmanagement.R
+import com.example.selfemployeesmanagement.adapters.TaskAdapter
+import com.example.selfemployeesmanagement.models.TaskModel
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference

@@ -1,4 +1,4 @@
-package com.example.taskmanagement.activities
+package com.example.selfemployeesmanagement.activities
 
 import android.app.DatePickerDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.example.taskmanagement.R
+import com.example.selfemployeesmanagement.R
+import com.example.selfemployeesmanagement.models.TaskModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import java.util.Calendar

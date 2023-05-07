@@ -1,4 +1,4 @@
-package com.example.taskmanagement.activities
+package com.example.selfemployeesmanagement.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +9,8 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.taskmanagement.R
+import com.example.selfemployeesmanagement.R
+import com.example.selfemployeesmanagement.models.TaskModel
 import com.google.firebase.database.FirebaseDatabase
 
 class TaskDetailsActivity : AppCompatActivity() {
