@@ -25,6 +25,7 @@ class EmployeeProfile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.employeeprofile)
+        supportActionBar?.hide()
 
 
         tvFirstName = findViewById(R.id.textView20)

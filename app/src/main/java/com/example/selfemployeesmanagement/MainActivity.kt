@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        
+
 
         val loginButton: Button = findViewById(R.id.HomeLoginButton)
 

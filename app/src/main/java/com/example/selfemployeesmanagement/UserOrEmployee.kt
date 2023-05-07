@@ -19,6 +19,7 @@ class UserOrEmployee : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.useroremployee)
+        supportActionBar?.hide()
 
         val userButton: Button = findViewById(R.id.generalUserBtn)
 

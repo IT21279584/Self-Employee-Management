@@ -6,5 +6,6 @@ class SampleAddActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sampleadd )
+        supportActionBar?.hide()
     }
 }

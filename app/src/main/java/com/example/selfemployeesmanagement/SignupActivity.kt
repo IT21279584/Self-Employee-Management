@@ -22,6 +22,7 @@ private val emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.userregister)
+        supportActionBar?.hide()
 
         auth=FirebaseAuth.getInstance()
         database=FirebaseDatabase.getInstance()

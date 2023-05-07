@@ -9,6 +9,7 @@ class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dashboard )
+        supportActionBar?.hide()
 
         val searchCardView : CardView = findViewById(R.id.cvSearch)
         val exitCardView : CardView = findViewById(R.id.cvExit)
