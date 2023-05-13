@@ -40,6 +40,7 @@ class UserProfile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.userprofile)
+        supportActionBar?.hide()
 
         etFirstName = findViewById(R.id.editTextTextPersonName3)
         etLastName = findViewById(R.id.editTextTextPersonName4)

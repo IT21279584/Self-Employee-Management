@@ -19,6 +19,7 @@ class SigninActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login )
+        supportActionBar?.hide()
 
         auth = FirebaseAuth.getInstance()
 

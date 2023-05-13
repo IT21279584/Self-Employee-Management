@@ -23,6 +23,7 @@ class EmployeeSignup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.employeeregister)
+        supportActionBar?.hide()
 
         auth=FirebaseAuth.getInstance()
         database=FirebaseDatabase.getInstance()

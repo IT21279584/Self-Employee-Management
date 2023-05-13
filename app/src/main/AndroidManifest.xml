@@ -185,6 +185,47 @@
             </intent-filter>
 
         </activity>
+        <activity
+            android:name=".activities.TaskDetailsActivity"
+            android:exported="false">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+
+    </activity>
+
+        <activity
+            android:name=".activities.FetchingTaskActivity"
+            android:exported="false">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+
+    </activity>
+
+        <activity
+            android:name=".activities.InsertionTaskActivity"
+            android:exported="false">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+        </intent-filter>
+
+    </activity>
+
+        <activity
+            android:name=".activities.MainTaskActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
 
     </application>
 

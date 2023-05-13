@@ -15,6 +15,7 @@ class EmployeeListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.employeelist)
+        supportActionBar?.hide()
 
         employeeRecyclerView = findViewById(R.id.rvEmployeeList)
         employeeRecyclerView.layoutManager = LinearLayoutManager(this)
