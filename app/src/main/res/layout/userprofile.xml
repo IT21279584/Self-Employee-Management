@@ -76,16 +76,18 @@
         app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_account"
-        android:layout_width="110dp"
-        android:layout_height="93dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginTop="144dp"
         android:src="@drawable/account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <Button
         android:id="@+id/editProfileButton"
