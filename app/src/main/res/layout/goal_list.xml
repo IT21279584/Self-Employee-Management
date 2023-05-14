@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="3dp"
     app:cardCornerRadius="3dp"
-    android:layout_margin="6dp">
+    android:layout_margin="6dp"
+    android:background="@drawable/bgtask">
 
     <LinearLayout
         android:layout_width="wrap_content"
